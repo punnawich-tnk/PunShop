@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "PunShop";
+    src: url(/PunShop/font/FC_Quantum_Non-commercial.ttf);
+}
+
+* {
+    font-family: "PunShop";
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: #2AB5EC;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20PX;
+}
+
+div {
+    display: flex;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.div-1 {
+    width: 10%;
+    height: 10%;
+}
+
+.div-2 {
+    width: 40%;
+    height: 50PX;
+    justify-content: center;
+}
+
+input {
+    background-color: #ECE9E9;
+    margin: 0%;
+    padding: 0% 10px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: large;
+}
+
+button {
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+a {
+    align-self: flex-start;
+    color: black;
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.div-5 {
+    margin: 20px 50px;
+    height: 170px;
+}
+
+.div-4 {
+    width: 20%;
+    height: 250px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.div-4 img{
+    width: 300px;
+    height: 300px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#section-1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div-4 p {
+    margin: 0%;
+    padding: 10px;
+    word-wrap: break-word;
+    background-color: #C9EEFF;
+}
+
+.div-3 {
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-6 {
+    align-self: flex-end;
+    width: 20%;
+    height:30px;
+}
+
+.div-7 {
+    align-self: flex-end;
+}
+
+.no-center {
+    margin: 0 10px; 
+}
